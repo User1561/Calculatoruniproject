@@ -1,4 +1,3 @@
-#include "stdafx.h" 
 #include <stdio.h>
 #include "stdafx.h"
 #include <iosteam>
@@ -6,41 +5,50 @@ using namespace std;
 {
 
 int main()
-    cout <<"Please enter the first number";
+Char input  = 'Y'
+whule (Input == 'Y')
+{
+  
+    cout <<"Please enter the first number" << endl;
 
 int Number1;
 cin >> Number1;
 
-cout >> "Please enter a function";
+cout >> "Please enter a function" << endl;
 
 char Function;
 cin >> Function;
 
-cout << "Please enter another number";
+cout << "Please enter another number" <<endl;
 
 int Number2;
 cin >> Number2;
 
 int Result;
-if(function== "+");
+if(function== '+');
 {
 Result = Number1 + Number2;
 }
 
-else if (function =="-");
+else if (function =='-');
 {
     Result = Number1 - Number2;
 }
-else if (function=="*");
+else if (function=='*');
 {
 Result = Number1 * Number2;
 }
-else if (function=="/");
+else if (function=='/');
 {
 Result = Number1 / Number2;
 }
 
-cout << Result;
-system ("pause")
+cout << Result <<endl;
+cout << "Would you like to perform another calculation (Y/N)"
+
+cin >> input;
+cout < endl << endl;
+}
+    system("pause");
 return 0;
 }
